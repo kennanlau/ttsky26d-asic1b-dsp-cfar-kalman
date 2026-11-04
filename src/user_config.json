@@ -1,0 +1,20 @@
+{
+  "DESIGN_NAME": "tt_um_asic1b_dsp",
+  "VERILOG_FILES": [
+    "dir::asic1b_tt_top.sv",
+    "dir::asic1b_pipeline.sv",
+    "dir::dsp_project.v",
+    "dir::dsp_delay_line.v",
+    "dir::dsp_fir_core.v",
+    "dir::cfar_project.v",
+    "dir::cfar_window.v",
+    "dir::cfar_combine.v",
+    "dir::cfar_threshold.v",
+    "dir::synth_compat_compute_core.sv"
+  ],
+  "DIE_AREA": "0 0 334.88 225.76",
+  "FP_DEF_TEMPLATE": "dir::../tt/tech/sky130A/def/tt_block_2x2_pg.def",
+  "VDD_PIN": "VPWR",
+  "GND_PIN": "VGND",
+  "RT_MAX_LAYER": "met4"
+}
